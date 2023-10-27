@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Shaping';
+	src: url('../fonts/ShapingHeart.otf') format('opentype');
+ }
+
+:root {
+	--whiteColor: #fff;
+	--blackColor: #1e1e1e;
+	--roseColor: #b56c75;
+	--titleFont: 'Shaping', sans-serif;
+	--textFont: "Poppins", sans-serif;
+}
+
+body {
+	font-family: var(--textFont);
+	overflow-x: hidden;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+.container {
+	width: 100%;
+	max-width: 1740px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
