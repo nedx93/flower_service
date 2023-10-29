@@ -6,7 +6,8 @@
 :root {
 	--whiteColor: #fff;
 	--blackColor: #1e1e1e;
-	--roseColor: #b56c75;
+	--roseColor: #be185d;
+	--gradient: linear-gradient(135deg, rgb(255, 255, 255), rgb(246, 221, 244));
 	--titleFont: 'Shaping', sans-serif;
 	--textFont: "Poppins", sans-serif;
 }

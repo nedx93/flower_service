@@ -1,0 +1,40 @@
+.contacts {
+	background: #fcf4fd;
+	min-height: 945px;
+	display: flex;
+	align-items: center;
+}
+
+.contacts__row {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+	gap: 100px;
+	padding: 50px 0;
+}
+
+.contacts__text {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.contacts--items {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.contacts--items svg {
+	height: 30px;
+	width: 30px;
+	fill: var(--roseColor);
+}
+
+.contacts--text {
+	color: var(--blackColor);
+}
+
+.contacts__map * {
+	border-radius: 10px;
+}

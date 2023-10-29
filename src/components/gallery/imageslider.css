@@ -1,0 +1,13 @@
+.image-slider {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.image-slider img {
+	max-width: 450px;
+	max-height: 450px;
+	border-radius: 25px;
+	display: block;
+	margin: 0 auto;
+}
